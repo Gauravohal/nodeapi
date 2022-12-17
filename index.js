@@ -37,6 +37,14 @@ app.post("/imageupload",(req,res)=>{
     }
 })
 
+app.get("/test", (req,res)=>{
+    try {
+        res.send()
+    } catch (error) {
+        
+    }
+})
+
 
 app.listen(4000,()=>{
     console.log("Server is running on port:4000")
